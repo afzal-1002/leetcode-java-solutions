@@ -24,4 +24,8 @@ My solutions to LeetCode problems written in Java.
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/afzal-1002/leetcode-java-solutions/tree/master/0001-two-sum) |
+## Math
+|  |
+| ------- |
+| [0009-palindrome-number](https://github.com/afzal-1002/leetcode-java-solutions/tree/master/0009-palindrome-number) |
 <!---LeetCode Topics End-->
