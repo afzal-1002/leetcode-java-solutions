@@ -1,48 +1,27 @@
 class Solution {
-    public boolean isValid(String str) {
-        
-
-        int len = str.length();
-
-        if(len == 1){return(false);};
+    public boolean isValid(String s) {
 
         Stack<Character> stack = new Stack<>();
 
-        HashMap<Character, Character> map = new HashMap<>();
-        map.put(')', '(');
-        map.put('}', '{');
-        map.put(']', '[');
-
-        String open = "({[";
-        String closing = "]})";
-
-        for(int i = 0; i < len; i++)
-        {
-            char current = str.charAt(i);
-
-            if(open.contains(String.valueOf(current)))
-                stack.push(str.charAt(i));
-
-            if(closing.contains(String.valueOf(current)))
-            {
-                if (!stack.empty() && map.get(current) == stack.peek())
-                    stack.pop();
-                else 
-                    return(false);
-
+        for (char c : s.toCharArray()) {
+            if (c == '(') 
+                stack.push(')');
+            else if (c == '{') 
+                stack.push('}');
+            else if (c == '[')
+                stack.push(']');
+            else {
+                if (stack.isEmpty() || stack.pop() != c) {
+                    return false;
+                }
             }
-           
-
         }
 
-        if(stack.empty())
+        if(stack.isEmpty())
         {
-            return (true);
+            return(true);
+        }
 
-        } 
-
-
-    return(false);
-
+        return (false);
     }
 }
