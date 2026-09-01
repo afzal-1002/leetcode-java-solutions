@@ -16,4 +16,12 @@ My solutions to LeetCode problems written in Java.
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/afzal-1002/leetcode-java-solutions/tree/master/0020-valid-parentheses) |
+## Array
+|  |
+| ------- |
+| [0001-two-sum](https://github.com/afzal-1002/leetcode-java-solutions/tree/master/0001-two-sum) |
+## Hash Table
+|  |
+| ------- |
+| [0001-two-sum](https://github.com/afzal-1002/leetcode-java-solutions/tree/master/0001-two-sum) |
 <!---LeetCode Topics End-->
