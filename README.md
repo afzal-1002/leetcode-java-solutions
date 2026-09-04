@@ -8,6 +8,7 @@ My solutions to LeetCode problems written in Java.
 |  |
 | ------- |
 | [0013-roman-to-integer](https://github.com/afzal-1002/leetcode-java-solutions/tree/master/0013-roman-to-integer) |
+| [0014-longest-common-prefix](https://github.com/afzal-1002/leetcode-java-solutions/tree/master/0014-longest-common-prefix) |
 | [0020-valid-parentheses](https://github.com/afzal-1002/leetcode-java-solutions/tree/master/0020-valid-parentheses) |
 ## Stack
 |  |
@@ -21,6 +22,7 @@ My solutions to LeetCode problems written in Java.
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/afzal-1002/leetcode-java-solutions/tree/master/0001-two-sum) |
+| [0014-longest-common-prefix](https://github.com/afzal-1002/leetcode-java-solutions/tree/master/0014-longest-common-prefix) |
 ## Hash Table
 |  |
 | ------- |
@@ -31,4 +33,8 @@ My solutions to LeetCode problems written in Java.
 | ------- |
 | [0009-palindrome-number](https://github.com/afzal-1002/leetcode-java-solutions/tree/master/0009-palindrome-number) |
 | [0013-roman-to-integer](https://github.com/afzal-1002/leetcode-java-solutions/tree/master/0013-roman-to-integer) |
+## Trie
+|  |
+| ------- |
+| [0014-longest-common-prefix](https://github.com/afzal-1002/leetcode-java-solutions/tree/master/0014-longest-common-prefix) |
 <!---LeetCode Topics End-->
