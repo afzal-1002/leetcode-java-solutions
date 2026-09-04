@@ -1,19 +1,22 @@
+import java.util.HashMap;
+import java.util.Map;
+
 class Solution {
     public int[] twoSum(int[] nums, int target) {
 
-        HashMap<Integer, Integer> map = new HashMap<>();
+        Map<Integer, Integer> total = new HashMap<>();
 
         for (int i = 0; i < nums.length; i++) {
 
-            int difference = target - nums[i];
+            int diff = target - nums[i];
 
-            if (map.containsKey(difference)) {
-                return new int[]{map.get(difference), i};
+            if (total.containsKey(diff)) {
+                return new int[]{total.get(diff), i};
+            } else {
+                total.put(nums[i], i);
             }
-
-            map.put(nums[i], i);
         }
 
-        return new int[]{};
+        return new int[]{0, 0};
     }
 }
